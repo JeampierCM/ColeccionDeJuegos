@@ -32,7 +32,7 @@
                     <navigationItem key="navigationItem" id="pdz-L0-PbR">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="xHH-Wt-jEa">
                             <connections>
-                                <segue destination="boj-qd-D7h" kind="show" id="Hdd-dh-aow"/>
+                                <segue destination="boj-qd-D7h" kind="show" identifier="juegoSegue" id="Hdd-dh-aow"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -68,17 +68,28 @@
                                     <action selector="agregarTapped:" destination="boj-qd-D7h" eventType="touchUpInside" id="gl7-AI-99A"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxt-bm-0ti">
+                                <rect key="frame" x="155.5" y="407" width="103" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Eliminar"/>
+                                <connections>
+                                    <action selector="eliminarTapped:" destination="boj-qd-D7h" eventType="touchUpInside" id="C2Y-Ul-mRQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="z0Y-mL-PUx" firstAttribute="leading" secondItem="yUo-io-MMK" secondAttribute="leading" constant="47" id="4tN-Mh-Bim"/>
+                            <constraint firstItem="LPw-YB-zHs" firstAttribute="centerX" secondItem="Yxt-bm-0ti" secondAttribute="centerX" id="9ju-Mz-zjK"/>
                             <constraint firstItem="HeH-TR-5Oe" firstAttribute="leading" secondItem="yUo-io-MMK" secondAttribute="leading" constant="87" id="9zV-wZ-0jg"/>
                             <constraint firstItem="LPw-YB-zHs" firstAttribute="centerX" secondItem="vfY-MU-x4O" secondAttribute="centerX" id="ET8-mL-rtd"/>
                             <constraint firstItem="HeH-TR-5Oe" firstAttribute="centerX" secondItem="z0Y-mL-PUx" secondAttribute="centerX" id="V3n-hy-7sN"/>
                             <constraint firstItem="HeH-TR-5Oe" firstAttribute="top" secondItem="yUo-io-MMK" secondAttribute="top" constant="32" id="dDY-Db-9we"/>
                             <constraint firstItem="LPw-YB-zHs" firstAttribute="top" secondItem="z0Y-mL-PUx" secondAttribute="bottom" constant="20" id="hzA-XF-9gS"/>
                             <constraint firstItem="yUo-io-MMK" firstAttribute="bottom" secondItem="z0Y-mL-PUx" secondAttribute="bottom" constant="538" id="mgk-yg-W4h"/>
+                            <constraint firstItem="Yxt-bm-0ti" firstAttribute="top" secondItem="LPw-YB-zHs" secondAttribute="bottom" constant="15" id="mpz-b9-h8k"/>
                             <constraint firstItem="z0Y-mL-PUx" firstAttribute="centerX" secondItem="vfY-MU-x4O" secondAttribute="centerX" id="qyT-79-uNU"/>
+                            <constraint firstItem="Yxt-bm-0ti" firstAttribute="centerX" secondItem="vfY-MU-x4O" secondAttribute="centerX" id="xgc-Mo-Piw"/>
                             <constraint firstItem="z0Y-mL-PUx" firstAttribute="top" secondItem="HeH-TR-5Oe" secondAttribute="bottom" constant="20" id="zPH-GT-nVO"/>
                             <constraint firstItem="HeH-TR-5Oe" firstAttribute="centerX" secondItem="vfY-MU-x4O" secondAttribute="centerX" id="zZb-Mh-pXL"/>
                         </constraints>
@@ -100,6 +111,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="JuegoImageView" destination="HeH-TR-5Oe" id="Lum-Ql-4jg"/>
+                        <outlet property="agregarActualizarBoton" destination="LPw-YB-zHs" id="2kL-Cf-IHb"/>
+                        <outlet property="eliminarBoton" destination="Yxt-bm-0ti" id="zoG-oi-EqK"/>
                         <outlet property="tituloTextField" destination="z0Y-mL-PUx" id="Ckr-Oo-7ho"/>
                     </connections>
                 </viewController>

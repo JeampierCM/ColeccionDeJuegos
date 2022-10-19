@@ -16,8 +16,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
             endingLineNumber = "11"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "JuegosViewController"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "439A9CF1-9159-4E5F-BC3E-88389BD33A25 - cfbd765cc427cda6"
@@ -77,7 +77,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
                   endingLineNumber = "14"
-                  offsetFromSymbolStart = "107">
+                  offsetFromSymbolStart = "119">
                </Location>
                <Location
                   uuid = "439A9CF1-9159-4E5F-BC3E-88389BD33A25 - a30ac98d6e12f638"

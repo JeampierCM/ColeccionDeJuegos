@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E66EF52128FDEC6200C72ADE /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66EF52028FDEC6200C72ADE /* JuegosViewController.swift */; };
 		E6F24DC928FDD87C00B247DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F24DC828FDD87C00B247DE /* AppDelegate.swift */; };
 		E6F24DCB28FDD87C00B247DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F24DCA28FDD87C00B247DE /* SceneDelegate.swift */; };
 		E6F24DCD28FDD87C00B247DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F24DCC28FDD87C00B247DE /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E66EF52028FDEC6200C72ADE /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 		E6F24DC528FDD87C00B247DE /* ColeccionDeJuegos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColeccionDeJuegos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F24DC828FDD87C00B247DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6F24DCA28FDD87C00B247DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				E6F24DD628FDD87D00B247DE /* LaunchScreen.storyboard */,
 				E6F24DD928FDD87D00B247DE /* Info.plist */,
 				E6F24DD128FDD87C00B247DE /* ColeccionDeJuegos.xcdatamodeld */,
+				E66EF52028FDEC6200C72ADE /* JuegosViewController.swift */,
 			);
 			path = ColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66EF52128FDEC6200C72ADE /* JuegosViewController.swift in Sources */,
 				E6F24DCD28FDD87C00B247DE /* ViewController.swift in Sources */,
 				E6F24DC928FDD87C00B247DE /* AppDelegate.swift in Sources */,
 				E6F24DCB28FDD87C00B247DE /* SceneDelegate.swift in Sources */,

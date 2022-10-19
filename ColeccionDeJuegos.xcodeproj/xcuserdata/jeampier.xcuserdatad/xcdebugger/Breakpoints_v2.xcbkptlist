@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0029C508-2ECF-4649-ADFD-29C862D35667"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "439A9CF1-9159-4E5F-BC3E-88389BD33A25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ColeccionDeJuegos/JuegosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "439A9CF1-9159-4E5F-BC3E-88389BD33A25 - cfbd765cc427cda6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColeccionDeJuegos.JuegosViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ColeccionDeJuegos.JuegosViewController"
+                  moduleName = "ColeccionDeJuegos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeampier/Documents/Proyectos/ColeccionDeJuegos/ColeccionDeJuegos/JuegosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "439A9CF1-9159-4E5F-BC3E-88389BD33A25 - f07752a62cb9ff55"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColeccionDeJuegos.JuegosViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ColeccionDeJuegos.JuegosViewController"
+                  moduleName = "ColeccionDeJuegos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeampier/Documents/Proyectos/ColeccionDeJuegos/ColeccionDeJuegos/JuegosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "439A9CF1-9159-4E5F-BC3E-88389BD33A25 - 3686d4d6915a8eb4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColeccionDeJuegos.JuegosViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ColeccionDeJuegos.JuegosViewController&gt;"
+                  moduleName = "ColeccionDeJuegos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeampier/Documents/Proyectos/ColeccionDeJuegos/ColeccionDeJuegos/JuegosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "439A9CF1-9159-4E5F-BC3E-88389BD33A25 - efaf210dd4e8910b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColeccionDeJuegos.JuegosViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ColeccionDeJuegos.JuegosViewController&gt;"
+                  moduleName = "ColeccionDeJuegos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeampier/Documents/Proyectos/ColeccionDeJuegos/ColeccionDeJuegos/JuegosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "439A9CF1-9159-4E5F-BC3E-88389BD33A25 - a30ac98d6e12f638"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ColeccionDeJuegos.JuegosViewController.__deallocating_deinit"
+                  moduleName = "ColeccionDeJuegos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeampier/Documents/Proyectos/ColeccionDeJuegos/ColeccionDeJuegos/JuegosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
